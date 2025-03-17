@@ -1,1 +1,7 @@
+/*
+* @descripcion: Archivo de estilos globales
+* Este archivo se encarga de importar los estilos globales de la aplicación
+* y de importar los estilos de la librería de diseño de Satoshi.
+*/
 @import "tailwindcss";
+@import url('satoshi.css');
