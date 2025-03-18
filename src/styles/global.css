@@ -5,3 +5,12 @@
 */
 @import url('satoshi.css');
 @import "tailwindcss";
+
+@theme {
+    --color-primary: #212121;  /* Fondo principal */
+    --color-secondary: #0A192F;  /* Navbar al hacer scroll */
+    --color-accent: #007BFF;  /* Azul vibrante para acentos */
+    --color-blue: #00A8E8;  /* Azul secundario */
+    --color-gray: #B0BEC5;  /* Texto secundario */
+    --color-white: #E3F2FD;  /* Texto principal */
+}
