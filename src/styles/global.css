@@ -7,10 +7,10 @@
 @import "tailwindcss";
 
 @theme {
-    --color-primary: #212121;  /* Fondo principal */
-    --color-secondary: #0A192F;  /* Navbar al hacer scroll */
-    --color-accent: #007BFF;  /* Azul vibrante para acentos */
-    --color-blue: #00A8E8;  /* Azul secundario */
-    --color-gray: #B0BEC5;  /* Texto secundario */
-    --color-white: #E3F2FD;  /* Texto principal */
+    --color-fondo-principal: #212121;  /* Fondo principal */
+    --color-fondo-secundario: #0A192F;  /* Navbar al hacer scroll */
+    --color-azul-principal: #007BFF;  /* Azul vibrante para acentos */
+    --color-azul-secundario: #00A8E8;  /* Azul secundario */
+    --color-texto-secundario: #B0BEC5;  /* Texto secundario */
+    --color-texto-principal: #E3F2FD;  /* Texto principal */
 }

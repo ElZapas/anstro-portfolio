@@ -47,7 +47,6 @@ export const socialIcons = [
     { name: "Email", key: "email", src: createIconPath("email.svg"), url: "mailto:tucorreo@correo.com" }
 ];
 
-export const miscIcons = {
-    dev: createIconPath("dev.svg"),
-    favicon: createIconPath("favicon.ico")
-};
+export const miscIcons = [
+    {dev: createIconPath("dev.svg"), color: "#E34F26"}
+];
