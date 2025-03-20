@@ -8,7 +8,9 @@
 
 @theme {
     --color-fondo-principal: #212121;  /* Fondo principal */
-    --color-fondo-secundario: #0A192F;  /* Navbar al hacer scroll */
+    --color-fondo-secundario: #2C2C2C;  /* Fondo secundario */
+    --color-fondo-terciario: #424242;  /* Fondo terciario */
+    --color-azulTerciario: #0A192F;  /* Navbar al hacer scroll */
     --color-azul-principal: #007BFF;  /* Azul vibrante para acentos */
     --color-azul-secundario: #00A8E8;  /* Azul secundario */
     --color-texto-secundario: #B0BEC5;  /* Texto secundario */

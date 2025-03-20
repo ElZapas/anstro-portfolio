@@ -1,52 +1,69 @@
-/**
- * @abstract importación de iconos
- * @constant techIcons: iconos de tecnologías
- * @constant socialIcons: iconos de redes sociales
- * @constant miscIcons: iconos varios
- */
-
-const basePath = "../../assets/icons"; // Ruta base de los iconos
-
-const createIconPath = (filename: string) => `${basePath}/${filename}`; // Función para crear la ruta de un icono
-
-
-export const techIcons = [ // Ahora, para cada icono, se define un objeto con su nombre, clave, ruta y color
-    { name: "HTML", key: "html", src: createIconPath("html.svg"), color: "#E34F26" },
-    { name: "CSS", key: "css", src: createIconPath("css.svg"), color: "#1572B6" },
-    { name: "JavaScript", key: "javascript", src: createIconPath("javascript.svg"), color: "#F7DF1E" },
-    { name: "TypeScript", key: "typescript", src: createIconPath("typescript.svg"), color: "#3178C6" },
-    { name: "React", key: "react", src: createIconPath("react.svg"), color: "#61DAFB" },
-    { name: "Tailwind CSS", key: "tailwind", src: createIconPath("tailwind.svg"), color: "#38B2AC" },
-    { name: "Astro", key: "astro", src: createIconPath("astro.svg"), color: "#FF5D01" },
-    { name: "Vite", key: "vite", src: createIconPath("vite.svg"), color: "#646CFF" },
-    { name: "Vitest", key: "vitest", src: createIconPath("vitest.svg"), color: "#6E9F18" },
-    { name: "Prettier", key: "prettier", src: createIconPath("prettier.svg"), color: "#F7B93E" },
-    { name: "ESLint", key: "eslint", src: createIconPath("eslint.svg"), color: "#4B32C3" },
-    { name: "PHP", key: "php", src: createIconPath("php.svg"), color: "#777BB4" },
-    { name: "MySQL", key: "mysql", src: createIconPath("mysql.svg"), color: "#4479A1" },
-    { name: "SQLite", key: "sqlite", src: createIconPath("sqlite.svg"), color: "#003B57" },
-    { name: "MariaDB", key: "mariadb", src: createIconPath("mariadb.svg"), color: "#003545" },
-    { name: "MongoDB", key: "mongodb", src: createIconPath("mongodb.svg"), color: "#47A248" },
-    { name: "Android", key: "android", src: createIconPath("android.svg"), color: "#3DDC84" },
-    { name: "Kotlin", key: "kotlin", src: createIconPath("kotlin.svg"), color: "#0095D5" },
-    { name: "Unity", key: "unity", src: createIconPath("unity.svg"), color: "#222C37" },
-    { name: "Godot", key: "godot", src: createIconPath("godot.svg"), color: "#478CBF" },
-    { name: "Python", key: "python", src: createIconPath("python.svg"), color: "#3776AB" },
-    { name: "NumPy", key: "numpy", src: createIconPath("numpy.svg"), color: "#013243" },
-    { name: "Git", key: "git", src: createIconPath("git.svg"), color: "#F05032" },
-    { name: "GitHub", key: "github", src: createIconPath("github.svg"), color: "#181717" },
-    { name: "Scrum", key: "scrum", src: createIconPath("scrum.svg"), color: "#00979D" },
-    { name: "Kanban", key: "kanban", src: createIconPath("kanban.svg"), color: "#0052CC" },
-    { name: "SEO", key: "seo", src: createIconPath("seo.svg"), color: "#4285F4" }
-];
-
-export const socialIcons = [
-    { name: "GitHub", key: "github", src: createIconPath("github.svg"), url: "https://github.com/" },
-    { name: "LinkedIn", key: "linkedin", src: createIconPath("linkedin.svg"), url: "https://linkedin.com/" },
-    { name: "Twitter", key: "twitter", src: createIconPath("twitter.svg"), url: "https://twitter.com/" },
-    { name: "Email", key: "email", src: createIconPath("email.svg"), url: "mailto:tucorreo@correo.com" }
-];
-
-export const miscIcons = [
-    {dev: createIconPath("dev.svg"), color: "#E34F26"}
-];
+// Importamos iconos desde react-icons (Simple Icons + Otros)
+import { 
+    SiHtml5, SiCss3, SiJavascript, SiTypescript, SiReact, SiTailwindcss, SiAstro, SiVite, SiVitest, 
+    SiPrettier, SiEslint, SiPhp, SiMysql, SiSqlite, SiMariadb, SiMongodb, SiAndroid, SiKotlin, 
+    SiUnity, SiGodotengine, SiPython, SiNumpy, SiGit, SiGithub, SiScrumalliance, SiTrello, SiGoogle 
+  } from "react-icons/si";
+  
+  import { FaLinkedin, FaTwitter, FaGithub, FaEnvelope, FaUserAstronaut, FaBars } from "react-icons/fa"; 
+  
+  // 🌐 Desarrollo Web con colores
+  export const techIcons = {
+    frontend: {
+      HTML: { icon: SiHtml5, color: "#E34F26" },
+      CSS: { icon: SiCss3, color: "#1572B6" },
+      JavaScript: { icon: SiJavascript, color: "#F7DF1E" },
+      TypeScript: { icon: SiTypescript, color: "#3178C6" },
+      React: { icon: SiReact, color: "#61DAFB" },
+      Tailwind: { icon: SiTailwindcss, color: "#38B2AC" },
+      Astro: { icon: SiAstro, color: "#FF5D01" },
+      Vite: { icon: SiVite, color: "#646CFF" },
+      Vitest: { icon: SiVitest, color: "#6E9F18" },
+      Prettier: { icon: SiPrettier, color: "#F7B93E" },
+      ESLint: { icon: SiEslint, color: "#4B32C3" },
+    },
+    backend: {
+      PHP: { icon: SiPhp, color: "#777BB4" },
+    },
+    databases: {
+      MySQL: { icon: SiMysql, color: "#4479A1" },
+      SQLite: { icon: SiSqlite, color: "#003B57" },
+      MariaDB: { icon: SiMariadb, color: "#003545" },
+      MongoDB: { icon: SiMongodb, color: "#47A248" },
+    },
+    mobile: {
+      Android: { icon: SiAndroid, color: "#3DDC84" },
+      Kotlin: { icon: SiKotlin, color: "#0095D5" },
+    },
+    gamedev: {
+      Unity: { icon: SiUnity, color: "#222C37" },
+      Godot: { icon: SiGodotengine, color: "#478CBF" },
+    },
+    data: {
+      Python: { icon: SiPython, color: "#3776AB" },
+      NumPy: { icon: SiNumpy, color: "#013243" },
+    },
+    tools: {
+      Git: { icon: SiGit, color: "#F05032" },
+      GitHub: { icon: SiGithub, color: "#181717" },
+      Scrum: { icon: SiScrumalliance, color: "#00979D" },
+      Kanban: { icon: SiTrello, color: "#0052CC" },
+      SEO: { icon: SiGoogle, color: "#4285F4" },
+    },
+  };
+  
+  // 🔗 Redes Sociales y Contacto
+  export const socialIcons = {
+    GitHub: { icon: FaGithub, url: "https://github.com/" },
+    LinkedIn: { icon: FaLinkedin, url: "https://linkedin.com/" },
+    Twitter: { icon: FaTwitter, url: "https://twitter.com/" },
+    Email: { icon: FaEnvelope, url: "mailto:tucorreo@correo.com" },
+  };
+  
+  // 🚀 Icono de Dev personalizado
+  export const miscIcons = {
+    Dev: FaUserAstronaut, // Ícono de astronauta para representar "dev"
+    Menu: FaBars, // Menu de hamburguesa
+  };
+  
+  
