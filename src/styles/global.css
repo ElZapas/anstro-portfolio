@@ -3,16 +3,80 @@
 * Este archivo se encarga de importar los estilos globales de la aplicación
 * y de importar los estilos de la librería de diseño de Satoshi.
 */
-@import url('satoshi.css');
+@import url("satoshi.css");
 @import "tailwindcss";
 
 @theme {
-    --color-fondo-principal: #212121;  /* Fondo principal */
-    --color-fondo-secundario: #2C2C2C;  /* Fondo secundario */
-    --color-fondo-terciario: #424242;  /* Fondo terciario */
-    --color-azulTerciario: #0A192F;  /* Navbar al hacer scroll */
-    --color-azul-principal: #007BFF;  /* Azul vibrante para acentos */
-    --color-azul-secundario: #00A8E8;  /* Azul secundario */
-    --color-texto-secundario: #B0BEC5;  /* Texto secundario */
-    --color-texto-principal: #E3F2FD;  /* Texto principal */
+  --color-fondo-principal: #212121; /* Fondo principal */
+  --color-fondo-secundario: #2c2c2c; /* Fondo secundario */
+  --color-fondo-terciario: #424242; /* Fondo terciario */
+  --color-azulTerciario: #0a192f; /* Navbar al hacer scroll */
+  --color-azul-principal: #007bff; /* Azul vibrante para acentos */
+  --color-azul-secundario: #00a8e8; /* Azul secundario */
+  --color-texto-secundario: #b0bec5; /* Texto secundario */
+  --color-texto-principal: #e3f2fd; /* Texto principal */
+}
+
+body {
+  font-family: "Satoshi", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+a {
+  font-family: "Satoshi", sans-serif;
+}
+
+.regular {
+  font-family: "Satoshi-Regular", sans-serif;
+}
+
+.italic {
+  font-family: "Satoshi-Italic", sans-serif;
+}
+
+.bold {
+  font-family: "Satoshi-Bold", sans-serif;
+}
+
+.boldItalic {
+  font-family: "Satoshi-BoldItalic", sans-serif;
+}
+
+.light {
+  font-family: "Satoshi-Light", sans-serif;
+}
+
+.lightItalic {
+  font-family: "Satoshi-LightItalic", sans-serif;
+}
+
+.medium {
+  font-family: "Satoshi-Medium", sans-serif;
+}
+
+.mediumItalic {
+  font-family: "Satoshi-MediumItalic", sans-serif;
+}
+
+.black {
+  font-family: "Satoshi-Black", sans-serif;
+}
+
+.blackItalic {
+  font-family: "Satoshi-BlackItalic", sans-serif;
+}
+
+.variable {
+  font-family: "Satoshi-Variable", sans-serif;
+}
+
+.variableItalic {
+  font-family: "Satoshi-VariableItalic", sans-serif;
 }

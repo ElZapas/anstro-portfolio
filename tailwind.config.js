@@ -1,4 +1,15 @@
+/**
+ * @future
+ * Por lo que se, tailwindcss no soporta fuentes variables, pero se puede hacer un workaround
+ * para que funcione. En este caso, se puede usar la fuente variable de Satoshi, pero no se implementará desde aqui
+ * Lo que se va a hacer es simplemente usar estilos css para usar los estilos, estos estan en global.css
+ */
+
 module.exports = {
+  content: [
+    './src/**/*.{js,jsx,ts,tsx}', // Incluye todos los archivos JS y JSX
+    './src/styles/satoshi.css', // Incluye satoshi.css para que Tailwind pueda extraer las clases
+  ],
   theme: {
     extend: {
       fontFamily: {
@@ -18,4 +29,4 @@ module.exports = {
     },
   },
   plugins: [],
-}
+};
