@@ -54,13 +54,13 @@ import {
   
   // 🔗 Redes Sociales y Contacto
   export const socialIcons = {
-    GitHub: { icon: FaGithub, url: "https://github.com/" },
-    LinkedIn: { icon: FaLinkedin, url: "https://linkedin.com/" },
+    GitHub: { icon: FaGithub, url: "https://github.com/ElZapas" },
+    LinkedIn: { icon: FaLinkedin, url: "https://www.linkedin.com/in/fabian-anstro-solano-a7b49a345/" },
     Twitter: { icon: FaTwitter, url: "https://twitter.com/" },
-    Email: { icon: FaEnvelope, url: "mailto:tucorreo@correo.com" },
+    Email: { icon: FaEnvelope, url: "mailto:anstrosolanofabian@gmail.com" },
   };
   
-  // 🚀 Icono de Dev personalizado
+  // 🚀 Iconos personalizados
   export const miscIcons = {
     Dev: FaUserAstronaut, // Ícono de astronauta para representar "dev"
     Menu: FaBars, // Menu de hamburguesa

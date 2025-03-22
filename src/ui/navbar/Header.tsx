@@ -13,13 +13,12 @@ const Header = () => {
   return (
     <header
       className={`fixed top-0 left-0 w-full z-50 transition-colors duration-300 ${
-        isScrolled ? "bg-fondo-secundario/80 backdrop-blur-md" : "bg-transparent"
+        isScrolled ? "bg-transparent/80 backdrop-blur-md" : "bg-transparent"
       }`}
     >
-      <div className="flex justify-between items-center h-16 px-8">
+      <div className="flex justify-between items-center h-16 px-10">
         <a href="/" className="flex items-center space-x-3">
           <DevIcon />
-          <h1 className="text-xl bold">Fabian Anstro</h1>
         </a>
 
         <button
@@ -35,7 +34,7 @@ const Header = () => {
 
         <nav
           ref={menuRef}
-          className={`fixed top-0 right-0 h-full w-64 bg-[#212121] transform ${
+          className={`fixed top-0 right-0 h-full w-64 bg-transparent transform ${
             isOpen ? "translate-x-0" : "translate-x-full"
           } transition-transform duration-300 md:relative md:w-auto md:h-auto md:translate-x-0`}
         >

@@ -1,8 +1,10 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import Hero from '../ui/index/Hero';
+import Hero from '../ui/index/hero/Hero';
+import Contenido from '../ui/index/contenido/Contenido';
 ---
 
 <Layout>
-  <Hero />
+ <Hero client:load/>
+ <Contenido client:load/>
 </Layout>
