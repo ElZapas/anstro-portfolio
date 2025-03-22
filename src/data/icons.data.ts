@@ -5,7 +5,7 @@ import {
     SiUnity, SiGodotengine, SiPython, SiNumpy, SiGit, SiGithub, SiScrumalliance, SiTrello, SiGoogle 
   } from "react-icons/si";
   
-  import { FaLinkedin, FaTwitter, FaGithub, FaEnvelope, FaUserAstronaut, FaBars } from "react-icons/fa"; 
+  import { FaLinkedin, FaTwitter, FaGithub, FaEnvelope, FaUserAstronaut, FaBars, FaArrowDown} from "react-icons/fa"; 
   
   // 🌐 Desarrollo Web con colores
   export const techIcons = {
@@ -64,6 +64,7 @@ import {
   export const miscIcons = {
     Dev: FaUserAstronaut, // Ícono de astronauta para representar "dev"
     Menu: FaBars, // Menu de hamburguesa
+    ArrowDown: FaArrowDown // Flecha hacia abajo
   };
   
   
