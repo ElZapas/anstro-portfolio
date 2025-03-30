@@ -1,4 +1,7 @@
-// Importamos iconos desde react-icons (Simple Icons + Otros)
+/**
+ * @abstract: Este archivo contiene los iconos utilizados en la aplicación, 
+ * organizados por categorías como desarrollo web, redes sociales y otros iconos personalizados.
+ */
 import { 
     SiHtml5, SiCss3, SiJavascript, SiTypescript, SiReact, SiTailwindcss, SiAstro, SiVite, SiVitest, 
     SiPrettier, SiEslint, SiPhp, SiMysql, SiSqlite, SiMariadb, SiMongodb, SiAndroid, SiKotlin, 
@@ -22,6 +25,7 @@ import {
       Prettier: { icon: SiPrettier, color: "#F7B93E" },
       ESLint: { icon: SiEslint, color: "#4B32C3" },
     },
+
     backend: {
       PHP: { icon: SiPhp, color: "#777BB4" },
     },
@@ -66,5 +70,5 @@ import {
     Menu: FaBars, // Menu de hamburguesa
     ArrowDown: FaArrowDown // Flecha hacia abajo
   };
-  
+
   
