@@ -7,14 +7,13 @@
 @import "tailwindcss";
 
 @theme {
-  --color-fondo-principal: #212121; /* Fondo principal */
-  --color-fondo-secundario: #2c2c2c; /* Fondo secundario */
-  --color-fondo-terciario: #424242; /* Fondo terciario */
-  --color-azulTerciario: #0a192f; /* Navbar al hacer scroll */
-  --color-azul-principal: #007bff; /* Azul vibrante para acentos */
-  --color-azul-secundario: #00a8e8; /* Azul secundario */
-  --color-texto-secundario: #b0bec5; /* Texto secundario */
-  --color-texto-principal: #e3f2fd; /* Texto principal */
+  --color-hero-principal: #0465c4; /* Azul principal */
+  --color-fondo-principal: #212121; /* Fondo general oscuro */
+  --color-fondo-secundario: #181818; /* Alternativa más oscura */
+  --color-acento: #4A90E2; /* Azul moderno */
+  --color-texto-principal: #F5F5F5; /* Blanco suave */
+  --color-texto-secundario: #B0B0B0; /* Gris claro */
+  --color-card: #252525; /* Fondo de tarjetas */
 }
 
 body {
