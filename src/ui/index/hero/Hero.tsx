@@ -11,7 +11,7 @@ const scrollToNextSection = () => {
 
 const Hero = () => {
   return (
-    <section className="relative h-screen w-full flex items-center justify-center bg-fondo-principal overflow-hidden">
+    <section className="relative h-screen w-full flex items-center justify-center bg-hero-principal overflow-hidden">
       {/* Rectángulo deslizante */}
       <motion.div
         initial={{ y: "100%" }}
@@ -30,7 +30,7 @@ const Hero = () => {
             transition={{
               duration: 1,
               delay: 1.5 + index * 0.2,
-              ease: "easeInOut",
+              ease: "easeInOut"
             }}
             className="w-32 h-full"
             style={{ backgroundColor: color }}
@@ -86,6 +86,7 @@ const Hero = () => {
         </a>
       </motion.div>
 
+      {/* Botón de scroll */}
       <motion.button
         initial={{ opacity: 0, y: -50 }}
         animate={{ opacity: 1, y: 0 }}
