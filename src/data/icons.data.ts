@@ -20,8 +20,12 @@ import {
       React: { icon: SiReact, color: "#61DAFB" },
       Tailwind: { icon: SiTailwindcss, color: "#38B2AC" },
       Astro: { icon: SiAstro, color: "#FF5D01" },
+    
+    },
+
+    testing: {
       Vite: { icon: SiVite, color: "#646CFF" },
-      Vitest: { icon: SiVitest, color: "#6E9F18" },
+      Vitest: { icon: SiVitest, color: "#6E44FF" },
       Prettier: { icon: SiPrettier, color: "#F7B93E" },
       ESLint: { icon: SiEslint, color: "#4B32C3" },
     },
