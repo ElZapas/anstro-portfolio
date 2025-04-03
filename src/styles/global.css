@@ -7,14 +7,32 @@
 @import "tailwindcss";
 
 @theme {
-  --color-hero-principal: #0465c4; /* Azul principal */
-  --color-fondo-principal: #212121; /* Fondo general oscuro */
-  --color-fondo-secundario: #181818; /* Alternativa más oscura */
-  --color-acento: #4A90E2; /* Azul moderno */
+  --color-hero-principal: #034694; /* Azul oscuro principal */
+  --color-fondo-principal: #212121; /* Fondo oscuro */
+  --color-fondo-secundario: #181818; /* Fondo aún más oscuro */
+  --color-acento: #0A66C2; /* Azul corporativo */
+
+  /* Colores para los contenedores */
+  --color-azul-claro: #003366; /* Azul fuerte para fondos */
+  --color-azul-medio: #1B4F72; /* Azul intermedio con más contraste */
+  --color-azul-pastel: #1261A0; /* Azul pastel más oscuro */
+  --color-neon: #0072FF; /* Azul vibrante para énfasis */
+
+  /* Colores de texto */
   --color-texto-principal: #F5F5F5; /* Blanco suave */
   --color-texto-secundario: #B0B0B0; /* Gris claro */
-  --color-card: #252525; /* Fondo de tarjetas */
+
+  /* Extras */
+  --color-card: #292929; /* Fondo de tarjetas y elementos con menos jerarquía */
+  --color-hover: #3282b8; /* Color de hover en botones o interacciones */
+
+  /* Linea de tiempo */
+
+  --color-estudios:#32A852;
+  --color-trabajo:#6332A8;
+  --color-eventos:#A83244;
 }
+
 
 body {
   font-family: "Satoshi", sans-serif;
