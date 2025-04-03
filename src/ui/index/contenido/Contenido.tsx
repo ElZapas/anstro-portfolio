@@ -1,6 +1,7 @@
 import Intro from "./Intro";
 import SobreMi from "./SobreMi";
 import Habilidades from "./Habilidades";
+import SiguienteSeccion from "./SiguienteSeccion";
 
 const Contenido = () => {
   return (
@@ -16,8 +17,12 @@ const Contenido = () => {
       </div>
 
       {/* Sección 3: Habilidades y Herramientas */}
-      <div id="habilidades" className="h-screen">
+      <div id="habilidades" className="min-h-screen">
         <Habilidades />
+      </div>
+
+      <div id="siguiente" className="h-screen">
+        <SiguienteSeccion />
       </div>
     </section>
   );

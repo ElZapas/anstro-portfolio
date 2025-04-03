@@ -12,7 +12,7 @@ interface BentoGridProps {
 
 const BentoGrid = ({ children }: BentoGridProps) => {
   return (
-    <section className="grid grid-cols-5 grid-rows-5 w-full h-screen pt-16 gap-4 p-4">
+    <section className="grid grid-cols-5 grid-rows-5 h-screen gap-4 p-4 pt-16">
       {children}
     </section>
   );
