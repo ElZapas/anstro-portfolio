@@ -5,7 +5,7 @@ import SiguienteSeccion from "./SiguienteSeccion";
 
 const Contenido = () => {
   return (
-    <section id="contenido" className="flex flex-col">
+    <section id="contenido" className="flex flex-col overflow-hidden">
       {/* Sección 1: Introducción */}
       <div>
         <Intro />
