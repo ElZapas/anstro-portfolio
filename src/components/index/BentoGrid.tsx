@@ -1,7 +1,8 @@
 /**
  * @abstract Componente BentoGrid
- * @description Contenedor de elementos en forma de grid, con 5 columnas y 5 filas.
+ * @description Contenedor de elementos en forma de grid, con 5 columnas y 5 filas maximo.
  * @param {ReactNode} children - Elementos a mostrar en el grid
+ * @example <BentoGrid>...</BentoGrid>
  */
 
 import type { ReactNode } from "react";
