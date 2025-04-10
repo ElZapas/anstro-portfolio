@@ -1,7 +1,8 @@
 import { motion } from "framer-motion";
 import { socialIcons, miscIcons } from "../../../data/icons.data";
 
-const squareColors = ["#005bb5", "#004c99", "#003d7f", "#002f66", "#001f4d"]; // Tonos oscuros
+const squareColors = ["#005bb5", "#004c99", "#003d7f", "#002f66", "#001f4d"];
+
 const scrollToNextSection = () => {
   const nextSection = document.getElementById("contenido");
   if (nextSection) {
@@ -16,7 +17,7 @@ const Hero = () => {
       <motion.div
         initial={{ y: "100%" }}
         animate={{ y: "0%" }}
-        transition={{ duration: 1.5, ease: "easeInOut" }}
+        transition={{ duration: 1, ease: "easeInOut" }} 
         className="absolute bottom-0 w-full h-full bg-azul-principal flex items-center justify-center"
       ></motion.div>
 
@@ -28,8 +29,8 @@ const Hero = () => {
             initial={{ x: "100%", opacity: 0 }}
             animate={{ x: "0%", opacity: 1 }}
             transition={{
-              duration: 1,
-              delay: 1.5 + index * 0.2,
+              duration: 0.6, 
+              delay: 0.5 + index * 0.1, 
               ease: "easeInOut"
             }}
             className="w-32 h-full"
@@ -42,7 +43,7 @@ const Hero = () => {
       <motion.div
         initial={{ opacity: 0, x: -50 }}
         animate={{ opacity: 1, x: 0 }}
-        transition={{ duration: 1, delay: 2 }}
+        transition={{ duration: 0.6, delay: 1.2 }} 
         className="relative text-white z-10 w-full px-16"
       >
         <h1 className="text-6xl md:text-8xl font-black leading-none">
@@ -58,7 +59,7 @@ const Hero = () => {
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
-        transition={{ delay: 2.5, duration: 1 }}
+        transition={{ delay: 1.8, duration: 0.6 }} 
         className="absolute bottom-10 left-16 flex gap-4 text-gray-300"
       >
         <a
@@ -90,7 +91,7 @@ const Hero = () => {
       <motion.button
         initial={{ opacity: 0, y: -50 }}
         animate={{ opacity: 1, y: 0 }}
-        transition={{ delay: 2, duration: 1.5, ease: "easeOut" }}
+        transition={{ delay: 1.6, duration: 0.8, ease: "easeOut" }}
         onClick={scrollToNextSection}
         className="absolute bottom-10 right-10 text-gray-300 hover:text-white transition"
         whileHover={{ y: 5 }}
