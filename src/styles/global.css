@@ -97,3 +97,19 @@ a {
 .variableItalic {
   font-family: "Satoshi-VariableItalic", sans-serif;
 }
+
+/* Estilos de scrollbar */
+.scroll-custom::-webkit-scrollbar {
+  width: 8px;
+  padding: 10px;
+}
+
+.scroll-custom::-webkit-scrollbar-track {
+  background: hero-principal;
+  border-radius: 9px;
+}
+
+.scroll-custom::-webkit-scrollbar-thumb {
+  background-color: #003470;
+  border-radius: 9px;
+}
