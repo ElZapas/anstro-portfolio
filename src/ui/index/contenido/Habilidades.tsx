@@ -6,95 +6,97 @@ const Habilidades = () => {
   return (
     <BentoGrid>
       {/* Contenedor grande: Tecnologías */}
-      <div className="col-span-4 row-span-5 rounded-xl bg-hero-principal p-4 shadow-lg">
-        <h2 className="text-4xl font-bold text-white">Tecnologías</h2>
+      <div className="col-span-4 row-span-5 rounded-xl bg-hero-principal p-4 pr-2 shadow-lg flex flex-col justify-between overflow-auto">
+      <div className="scroll-custom pr-4 h-full overflow-y-auto">
+        <h2 className="text-5xl font-black italic relative text-texto-principal">
+          Tecnologías
+        </h2>
 
         {/* Stack Principal */}
-        <h3 className="font-semibold text-gray-300 py-3 uppercase text-base">
+        <h3 className="font-semibold text-gray-300 py-3 uppercase text-sm sm:text-base md:text-lg">
           Stack principal
         </h3>
         <div className="grid grid-cols-4 sm:grid-cols-6 gap-3 pb-4">
           {Object.entries(techIcons.frontend).map(
-        ([name, { icon: Icon, color }]) => (
-          <div
-            key={name}
-            className="p-3 rounded-lg flex items-center hover:scale-105 transition-transform"
-            style={{ backgroundColor: color }}
-          >
-            <Icon size={24} className="text-white mr-3" />
-            <span className="text-white text-sm font-medium">
-          {name}
-            </span>
-          </div>
-        )
+            ([name, { icon: Icon, color }]) => (
+              <div
+                key={name}
+                className="p-3 rounded-lg flex items-center hover:scale-105 transition-transform"
+                style={{ backgroundColor: color }}
+              >
+                <Icon size={24} className="text-white mr-3" />
+                <span className="text-white text-xs sm:text-sm font-medium">
+                  {name}
+                </span>
+              </div>
+            )
           )}
         </div>
 
         {/* Testing y formateo */}
-        <h3 className="font-semibold text-gray-300 py-3 uppercase text-base">
+        <h3 className="font-semibold text-gray-300 py-3 uppercase text-sm sm:text-base md:text-lg">
           Testing y formateo
         </h3>
         <div className="grid grid-cols-4 sm:grid-cols-6 gap-3 pb-4">
           {Object.entries(techIcons.testing).map(
-        ([name, { icon: Icon, color }]) => (
-          <div
-            key={name}
-            className="p-3 rounded-lg flex items-center hover:scale-105 transition-transform"
-            style={{ backgroundColor: color }}
-          >
-            <Icon size={24} className="text-white mr-3" />
-            <span className="text-white text-sm font-medium">
-          {name}
-            </span>
-          </div>
-        )
+            ([name, { icon: Icon, color }]) => (
+              <div
+                key={name}
+                className="p-3 rounded-lg flex items-center hover:scale-105 transition-transform"
+                style={{ backgroundColor: color }}
+              >
+                <Icon size={24} className="text-white mr-3" />
+                <span className="text-white text-xs sm:text-sm font-medium">
+                  {name}
+                </span>
+              </div>
+            )
           )}
         </div>
 
-        {/* Manejo de bases de datos */}
-        <h3 className="font-semibold text-gray-300 py-3 uppercase text-base">
+        {/* Bases de datos */}
+        <h3 className="font-semibold text-gray-300 py-3 uppercase text-sm sm:text-base md:text-lg">
           Bases de datos
         </h3>
         <div className="grid grid-cols-4 sm:grid-cols-6 gap-3 pb-4">
           {Object.entries(techIcons.databases).map(
-        ([name, { icon: Icon, color }]) => (
-          <div
-            key={name}
-            className="p-3 rounded-lg flex items-center hover:scale-105 transition-transform"
-            style={{ backgroundColor: color }}
-          >
-            <Icon size={24} className="text-white mr-3" />
-            <span className="text-white text-sm font-medium">
-          {name}
-            </span>
-          </div>
-        )
+            ([name, { icon: Icon, color }]) => (
+              <div
+                key={name}
+                className="p-3 rounded-lg flex items-center hover:scale-105 transition-transform"
+                style={{ backgroundColor: color }}
+              >
+                <Icon size={24} className="text-white mr-3" />
+                <span className="text-white text-xs sm:text-sm font-medium">
+                  {name}
+                </span>
+              </div>
+            )
           )}
         </div>
 
-        {/* Herramientas y metodologías */}
-        <h3 className="font-semibold text-gray-300 py-3 uppercase text-base">
+        {/* Herramientas */}
+        <h3 className="font-semibold text-gray-300 py-3 uppercase text-sm sm:text-base md:text-lg">
           Herramientas
         </h3>
         <div className="grid grid-cols-4 sm:grid-cols-6 gap-3 pb-4">
           {Object.entries(techIcons.tools).map(
-        ([name, { icon: Icon, color }]) => (
-          <div
-            key={name}
-            className="p-3 rounded-lg flex items-center transition-transform"
-            style={{ backgroundColor: color }}
-          >
-            <Icon size={24} className="text-white mr-3" />
-            <span className="text-white text-sm font-medium">
-          {name}
-            </span>
-          </div>
-        )
+            ([name, { icon: Icon, color }]) => (
+              <div
+                key={name}
+                className="p-3 rounded-lg flex items-center transition-transform"
+                style={{ backgroundColor: color }}
+              >
+                <Icon size={24} className="text-white mr-3" />
+                <span className="text-white text-xs sm:text-sm font-medium">
+                  {name}
+                </span>
+              </div>
+            )
           )}
         </div>
+        </div>
       </div>
-
-
 
       {/* Contenedor pequeño: Top Skills */}
       <div className="col-span-1 row-span-4 rounded-xl bg-gradient-to-br from-acento to-azul-medio p-2 flex flex-col justify-center items-center shadow-md">
@@ -148,7 +150,7 @@ const Habilidades = () => {
 
       {/* Flecha de navegación */}
       <div className="col-span-1 row-span-1 bg-blue-500 rounded-xl p-4 flex items-center justify-center">
-        <ArrowNav targetId="siguiente" className="w-full flex justify-center"/>
+        <ArrowNav targetId="siguiente" className="w-full flex justify-center" />
       </div>
     </BentoGrid>
   );
