@@ -1,10 +1,9 @@
 /**
- * @abstract Componente ArrowNav
  * @description Flecha de navegación
  * @param {string} targetId - ID de la siguiente sección a la que se desplazará
  * @param {string} className - Clases adicionales para personalizar el componente
  * Este componente es una flecha de navegación que permite desplazarse
- * a la siguiente sección de la página
+ * @example <arrownav targetId="contenido"/>
  */
 import { miscIcons } from "../../data/icons.data";
 
@@ -22,12 +21,12 @@ const ArrowNav = ({ targetId, className }: ArrowNavProps) => {
   };
 
   return (
-    <button
+    <div
       onClick={scrollToSection}
-      className={`p-2 bg-transparent text-white rounded-full transition ${className}`}
+      className={`p-2 bg-transparent text-texto-principal rounded-full transition ${className}`}
     >
       <miscIcons.ArrowDown size={40} />
-    </button>
+    </div>
   );
 };
 
