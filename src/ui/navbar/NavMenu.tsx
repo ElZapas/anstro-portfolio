@@ -11,7 +11,7 @@ const NavMenu = () => {
     <ul className="flex flex-col md:flex-row space-y-5 md:space-y-0 md:space-x-5 p-6 md:p-0">
       {menuLinks.map((link) => (
         <li key={link.path}>
-          <a href={link.path} className="hover:text-gray-400 transition">
+          <a href={link.path} className="hover:text-texto-secundario transition">
             {link.name}
           </a>
         </li>
