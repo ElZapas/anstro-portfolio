@@ -113,3 +113,24 @@ a {
   background-color: #003470;
   border-radius: 9px;
 }
+
+.scroll-custom-modals {
+  
+  background-color: var(--color-fondo-principal);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.scroll-custom-modals::-webkit-scrollbar {
+  width: 8px;
+}
+
+.scroll-custom-modals::-webkit-scrollbar-track {
+  background: var(--color-fondo); 
+  border-radius: 9px;
+}
+
+.scroll-custom-modals::-webkit-scrollbar-thumb {
+  background-color: #1d1d1d;
+  border: 3px solid var(--color-fondo); 
+  border-radius: 9px;
+}
