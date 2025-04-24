@@ -33,6 +33,11 @@ const SobreMi = () => {
         <p className="text-lg mb-3">
           NEONHOUSELED S.A.C | Decoración de interiores
         </p>
+        <img
+          src="/images/nhllogo.png"
+          alt="Logo NEONHOUSELED"
+          className="w-13 h-12 mb-3"
+        />
         <p className="text-lg mb-3">Contrato de prácticas</p>
         <div className="absolute inset-1"></div>
       </motion.div>
