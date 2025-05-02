@@ -99,7 +99,7 @@ export const Proyectos: Proyecto[] = [
     nombre: "Gestor de tickets backend",
     descripcionCorta: "Backend para el sistema de tickets",
     tecnologias: ["PHP", "MySQL", "Scrum", "Kanban"],
-    imagen: "/images/proyecto4-ticketback.webp",
+    imagen: "/images/portafolio-v1.png",
     url: "https://github.com/ElZapas/API_Ticket",
     repositorio: "https://github.com/ElZapas/API_Ticket",
     detalles: {
