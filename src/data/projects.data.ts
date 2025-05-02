@@ -74,7 +74,7 @@ export const Proyectos: Proyecto[] = [
     nombre: "Sistema gestor de tickets",
     descripcionCorta: "Sistema de tickets para soporte tecnico",
     tecnologias: ["React", "JavaScript", "Vite", "Css", "Scrum", "Kanban"],
-    imagen: "/images/portafolio-v1.png",
+    imagen: "/images/proyecto5-ticketfront.webp",
     url: "https://dulce-sensacion.vercel.app",
     repositorio: "https://github.com/usuario/portafolio-v1",
     detalles: {
@@ -99,7 +99,7 @@ export const Proyectos: Proyecto[] = [
     nombre: "Gestor de tickets backend",
     descripcionCorta: "Backend para el sistema de tickets",
     tecnologias: ["PHP", "MySQL", "Scrum", "Kanban"],
-    imagen: "/images/portafolio-v1.png",
+    imagen: "/images/proyecto4-ticketback.webp",
     url: "https://github.com/ElZapas/API_Ticket",
     repositorio: "https://github.com/ElZapas/API_Ticket",
     detalles: {
@@ -126,7 +126,7 @@ export const Proyectos: Proyecto[] = [
     esEmpresarial: true,
     descripcionCorta: "Empresa de maquinaria",
     tecnologias: ["Astro", "React", "Tailwind", "Vite", "TypeScript", "Git"],
-    imagen: "/images/proyecto3-Tami.webp",
+    imagen: "/images/proyecto3-tami.webp",
     url: "https://tami.tami-peru.com",
     detalles: {
       descripcionLarga:
@@ -152,7 +152,7 @@ export const Proyectos: Proyecto[] = [
     esEmpresarial: true,
     descripcionCorta: "Empresa de iluminación y diseño",
     tecnologias: ["Astro", "React", "Tailwind", "Vite", "TypeScript", "Git"],
-    imagen: "/images/proyecto4-Yuntas.webp",
+    imagen: "/images/proyecto4-yuntas.webp",
     url: "https://yuntas.yuntasproducciones.com",
     detalles: {
       descripcionLarga:
