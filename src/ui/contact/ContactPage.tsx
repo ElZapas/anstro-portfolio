@@ -52,7 +52,7 @@ const Contacto = () => {
           <FaGithub size={24} /> GitHub
         </a>
         <a
-          href="/pdfs/AnstroCurriculo.pdf"
+          href="/pdfs/Fabian-Anstro-Curriculum-Vitae.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="p-4 bg-azul-medio text-texto-principal rounded-xl flex items-center gap-2 hover:scale-105 transition-transform"
