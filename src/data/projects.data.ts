@@ -99,8 +99,8 @@ export const Proyectos: Proyecto[] = [
     nombre: "Gestor de tickets backend",
     descripcionCorta: "Backend para el sistema de tickets",
     tecnologias: ["PHP", "MySQL", "Scrum", "Kanban"],
-    imagen: "/images/portafolio-v1.png",
-    url: "https://github.com/ElZapas/API_Ticket",
+    imagen: "/images/proyecto5-ticketBack.webp",
+    url: "https://apiticket-production-4edf.up.railway.app",
     repositorio: "https://github.com/ElZapas/API_Ticket",
     detalles: {
       descripcionLarga:
@@ -126,7 +126,7 @@ export const Proyectos: Proyecto[] = [
     esEmpresarial: true,
     descripcionCorta: "Empresa de maquinaria",
     tecnologias: ["Astro", "React", "Tailwind", "Vite", "TypeScript", "Git"],
-    imagen: "/images/proyecto3-tami.webp",
+    imagen: "/images/proyecto3-Tami.webp",
     url: "https://tami.tami-peru.com",
     detalles: {
       descripcionLarga:
@@ -152,7 +152,7 @@ export const Proyectos: Proyecto[] = [
     esEmpresarial: true,
     descripcionCorta: "Empresa de iluminación y diseño",
     tecnologias: ["Astro", "React", "Tailwind", "Vite", "TypeScript", "Git"],
-    imagen: "/images/proyecto4-yuntas.webp",
+    imagen: "/images/proyecto4-Yuntas.webp",
     url: "https://yuntas.yuntasproducciones.com",
     detalles: {
       descripcionLarga:
